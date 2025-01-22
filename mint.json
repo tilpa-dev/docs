@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:founders@tilpa.dev"
     }
   ],
   "topbarCtaButton": {
@@ -52,7 +52,6 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
         "quickstart",
         "development"
       ]
@@ -84,8 +83,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/tilpadev",
+    "github": "https://github.com/tilpa-dev",
+    "linkedin": "https://linkedin.com/company/tilpa-dev"
   }
 }
