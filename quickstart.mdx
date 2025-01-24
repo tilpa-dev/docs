@@ -26,5 +26,6 @@ Note that all parameters are optional except adaptive_api_key.
 
 Once you have an Adaptive_API initialized, dynamically add endpoints to your API like so:
 ```python
-adaptive_api.add_feature(user_prompt)
+endpoint_name, endpoint_methods = adaptive_api.add_feature(user_prompt)
 ```
+Where `user_prompt` is a string that describes the feature you want to add.
