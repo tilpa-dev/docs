@@ -11,7 +11,7 @@ pip install tilpa-api-sdk
 Then, initalize an Adaptive API like so:
 
 ```python
-from adaptive_api import Adaptive_API
+from tilpa_api_sdk import Adaptive_API
 
 # Example of how to initialize the Adaptive_API class
 adaptive_api = Adaptive_API(
@@ -29,3 +29,5 @@ Once you have an Adaptive_API initialized, dynamically add endpoints to your API
 endpoint_name, endpoint_methods = adaptive_api.add_feature(user_prompt)
 ```
 Where `user_prompt` is a string that describes the feature you want to add.
+
+That's it! You now have an API to which you can dynamiclly add features.

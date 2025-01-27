@@ -22,8 +22,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get Started",
+    "url": "https://tilpa.dev"
   },
   "tabs": [
     {
@@ -38,36 +38,16 @@
       "url": "https://tilpadev.mintlify.app"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Landing Page",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://tilpa.dev"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "quickstart"
       ]
     }
   ],
